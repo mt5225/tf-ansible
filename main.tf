@@ -1,7 +1,7 @@
 locals {
   common_vars = {
     ansible_user = "ubuntu"
-    pk_file      = "./snow.pem"
+    pk_file      = "/assets/keys/snow.pem"
   }
 
   num_of_servers = {
